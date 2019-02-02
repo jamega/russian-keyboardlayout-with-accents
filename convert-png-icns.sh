@@ -15,5 +15,6 @@ sips -z 512 512   $RUS --out russia.iconset/icon_256x256@2x.png
 sips -z 512 512   $RUS --out russia.iconset/icon_512x512.png
 
 iconutil -c icns russia.iconset
+rm -vrf ./russia.iconset
 mv russia.icns $LAYOUTNAME.icns
 
