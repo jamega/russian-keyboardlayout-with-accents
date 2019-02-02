@@ -3,9 +3,9 @@ Macintosh keyboard layout for Russian language learners
 
 Special Features
 ----------------
-Pressing the <OPTION> key + letter gives the unicode character with diacritic for emphasis.  This can be particularly helpful for language learners that need to remember where to place the emphasis.  e.g.: (option+letter => я́,е́,ё́,ы́,у́,и́,о́,ю́).  
+Pressing the OPTION key + letter gives the unicode character with diacritic for emphasis.  This can be particularly helpful for language learners that need to remember where to place the emphasis.  e.g.: (option+letter => я́,е́,ё́,ы́,у́,и́,о́,ю́).  
 
-<CAPS LOCK> quickly switches to Roman characters (makes for quick translations/navigation on a Mac with a non-Russian operating system)
+CAPS LOCK quickly switches to Roman characters (makes for quick translations/navigation on a Mac with a non-Russian operating system)
 
 INSTALL
 -------
