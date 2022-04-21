@@ -6,15 +6,19 @@ keyboard layout for Russian language learners
 Linux (Debian 10 with XFCE)
 ---------------------------
 
-Replace (or Edit) your "ru" file : /usr/share/X11/xkb/symbols/ru
+Either replace (or hand-edit) your "ru" file : /usr/share/X11/xkb/symbols/ru with the file in this repo.
 I changed (for simplicity) the "Russian" layout.
 Add the "Combining Acute" (0x01000301) as I do for the \<TLDE\> key.
   
 Example:
 key \<TLDE\> { [ 0x01000301, tilde ] };
 
-Now when you press this key the preceding letter gets a diacritic
-I have to remove and re-add the Russian keyboard layout in XFCE Keyboard Control Panel (Layout tab) for it to activate.
+Now when you press this key (Tilde) and the preceding letter gets a diacritic!
+
+Activation XFCE:
+1) Go to XFCE keyboard control panel (Layout Tab)
+2) Remove and re-add the Russian keyboard layout
+3) Switch in and out of the Russian keyboard and the new keyboard layout should be activated
 
 If you're interested in "going deep" with xkb modifications, I found this page extremely helpful.
 https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450
