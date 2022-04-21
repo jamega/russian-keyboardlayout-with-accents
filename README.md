@@ -3,7 +3,7 @@
 keyboard layout for Russian language learners 
 ---------------------------------------------
 
-Linux (Debian 10 with XFCE)
+Linux (Debian 10/11 with XFCE)
 ---------------------------
 
 Either replace (or hand-edit) your "ru" file : /usr/share/X11/xkb/symbols/ru with the file in this repo.
